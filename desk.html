@@ -16,13 +16,39 @@
 <script src = "js/time.js"></script>
 <body onload="startTime()">
 <!--date-->
-<script src = "js/date.js"></script>
+
 </head>
 <body>
+<!--TIME AND DATE HERE-->
  <center><h1><div id="txt"></div></h1></center>    
  <center><p id="date"></p>
  <script>
  document.getElementById("date").innerHTML = Date();
  </script>
  </center>
+ <!--TIME AND DATE OVER-->
+
+ <footer>
+<!--word editor-->
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Word Editor</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>.....................................................</p>
+     <p><iframe src="https://docs.google.com/document/u/0/create?usp=docs_home&ths=true" width="700" height="700"></iframe>
+     </p> <p>  .......................................................
+    </p>
+  </div>
+
+</div>
+<script src = "js/modal.js"></script>
+<link rel="stylesheet" href="css/modal.css">
+<!--word editor over-->
+
+ </footer>
 </body>
