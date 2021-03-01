@@ -1,0 +1,21 @@
+{
+	"require": {
+		"illuminate/container": "v4.1.*",
+		"ircmaxell/password-compat": "^1.0",
+		"swiftmailer/swiftmailer": "^5.4.8",
+		"lusitanian/oauth": "^0.8.10",
+		"filp/whoops": "^2.1",
+		"guzzlehttp/guzzle": "^5.3",
+		"paragonie/random_compat": "^2.0",
+		"indigophp/hash-compat": "^1.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Hazzard\\": "src/Hazzard/",
+			"OAuth\\UserData\\": "src/OAuth/UserData/"
+        },
+		"files": [
+            "src/Hazzard/Support/helpers.php"
+        ]
+	}
+}
